@@ -1,0 +1,297 @@
+:root {
+--primary-cl: #4d5ae5;
+--primary-active-cl: #404bbf;
+--main-dark-cl: #2E2F42;
+--success-cl: #31D0AA;
+--tx-main:#434455;
+--tx-subtle: #8E8F99;
+--accent-light-cl: #E7E9FC;
+--light-cl: #F4F4FD;
+--modal-overlay-cl: #2E2F42;
+--bg-hero: #2E2F42;
+--main-light: #FFFFFF;
+--bg-modal: #FCFCFC;
+
+}
+
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+body {
+font-family: Roboto, sans-serif;
+letter-spacing: 0.02em;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--tx-main);
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+text-decoration: none;
+color: currentColor
+}
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+address {
+    font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/**
+  |============================
+  | Base styles
+  |============================
+*/
+
+.container{
+margin: 0 auto;
+width: 1128px;
+}
+
+.section {
+
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--main-dark-cl);
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main-dark-cl);
+}
+
+.page {}
+
+.main {}
+
+.hidden-element {
+
+}
+
+/**
+  |============================
+  | Logo styles
+  |============================
+*/
+.logo {
+  font-family: "Ralewey", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-cl);
+}
+
+.logo-dark-part {
+  color: var(--main-dark-cl);
+}
+
+.logo-light-part{
+  color: var(--light-cl);
+}
+
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+
+.header {}
+
+.header-nav {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {
+  font-weight: 500;
+  color: var(--main-dark-cl)}
+
+.header-link:hover, .header-link:focus{
+color: var(--primary-active-cl);s
+}
+
+.header-contacts {}
+
+.header-contacts-item {}
+
+.header-contacts-link {
+  color: var(--tx-main);
+}
+
+.header-contacts-link:hover, .header-contacts-link:focus {
+  color: var(--primary-active-cl);
+}
+
+
+/* Index styles */
+
+/**
+  |============================
+  | Hero section styles
+  |============================
+*/
+
+.hero {
+  background-color: var(--main-dark-cl);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--main-light);
+}
+
+.hero-button {
+  background-color: var(--primary-cl);
+  border-radius: 4px;
+  height: 56px;
+  cursor: pointer;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--main-light);
+  text-align: center;
+}
+
+.hero-button:hover, .hero-button:focus {
+  background-color: var(--primary-active-cl);
+}
+
+/**
+  |============================
+  | Our advantages
+  |============================
+*/
+
+.advantages {}
+
+.advantages-list {}
+
+.advantages-cards {}
+
+.advantages-description {}
+
+/**
+  |============================
+  | What are we doing
+  |============================
+*/
+
+.what-are {}
+
+.what-list {}
+
+.what-card {}
+
+.what-img {}
+
+/**
+  |============================
+  | Our team 
+  |============================
+*/
+
+.team {
+  background-color: var(--light-cl);
+}
+
+.team-list {}
+
+.team-card {}
+
+.team-img {}
+
+.team-description {}
+
+/**
+  |============================
+  | Footer 
+  |============================
+*/
+.footer {
+  background-color: var(--main-dark-cl);
+}
+
+.footer-text {
+  color: var(--light-cl);
+}
+
+
+/* Portfolio styles */
+
+/**
+  |============================
+  | Portfolio section
+  |============================
+*/
+
+ .portfolio {}
+
+ .portfolio-list {}
+
+ .portfolio-elem {}
+
+ .portfolio-button {
+  background-color: var(--light-cl);
+  border-radius: 4;
+  /* border: 0; */
+  cursor: pointer;
+
+  color: var(--primary-cl);
+  text-align: center;
+  font-weight: 500;
+ }
+
+ .portfolio-button:hover, .portfolio-button:focus {
+  background-color: var(--primary-active-cl);
+  color: var(--main-light);
+ }
+
+ .portf-projects-list {}
+
+ .portf-projects-cards {}
+
+ .portf-projects-link {}
+
+ .portf-projects-img {}
+
+ .portf-projects-desc {}
