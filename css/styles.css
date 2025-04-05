@@ -69,7 +69,8 @@ img {
 
 .container{
 margin: 0 auto;
-width: 1128px;
+width: 1158px;
+padding: 0 15px;
 }
 
 .section {
