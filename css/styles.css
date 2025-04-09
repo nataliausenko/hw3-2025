@@ -24,7 +24,6 @@ font-family: Roboto, sans-serif;
 letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color: var(--tx-main);
 }
 
@@ -261,7 +260,9 @@ gap: 48px;
   gap: 24px;
 }
 
-.advantages-cards {}
+.advantages-cards {
+  width: calc((100% - 3 * 24px) / 4);
+}
 
 .advantages-description {}
 
@@ -305,6 +306,7 @@ gap: 48px;
 .team-card {
   background-color: var(--main-light);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-img {
@@ -383,14 +385,19 @@ padding: 32px 16px;
  .portf-projects-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
  }
 
- .portf-projects-cards {}
+ .portf-projects-cards {
+  width: calc((100% - 2 * 24px) / 3);
+ }
 
  .portf-projects-link {}
 
- .portf-projects-img {}
+ .portf-projects-img {
+
+ }
 
  .portf-projects-desc {}
 
